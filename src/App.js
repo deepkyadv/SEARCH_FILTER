@@ -22,7 +22,7 @@ function App() {
     records.email.toLowerCase().includes(search.toLowerCase())||
     records.address.toLowerCase().includes(search.toLowerCase())
    
-  
+  );
 
   return (
     <div className="container">

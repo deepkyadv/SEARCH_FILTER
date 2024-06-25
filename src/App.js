@@ -20,8 +20,7 @@ function App() {
   const filteredItems = Records.filter(records=>
     records.name.toLowerCase().includes(search.toLowerCase())||
     records.email.toLowerCase().includes(search.toLowerCase())||
-    records.address.toLowerCase().includes(search.toLowerCase)
-)
+    records.address.toLowerCase().includes(search.toLowerCase())
    
   
 
